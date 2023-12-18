@@ -5,7 +5,7 @@ const handler = async (m, { conn, text }) => {
           const stdout = execSync('git pull' + (m.fromMe && text ? ' ' + text : ''));
           let messager = stdout.toString()
           if (messager.includes('Already up to date.')) messager = '*[❗] No hay nada por actualizar, todo esta actualizado a como esta en el repositorio oficial.*'
-          if (messager.includes('Updating')) messager = '*Alacran Bot A Sido Actualizado :*\n\n' + stdout.toString()
+          if (messager.includes('Updating')) messager = '🕷️ 𝗦𝗣𝗜𝗗𝗘𝗥 𝗕𝗢𝗧🕷️\n\n' + stdout.toString()
           conn.reply(m.chat, messager, m);
   } catch {      
  try {    
