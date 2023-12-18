@@ -5,7 +5,7 @@ const handler = async (m, {conn, text, isMods, isOwner, isPrems}) => {
      enviando = true 
   try {
     const link = text //(m.quoted ? m.quoted.text ? m.quoted.text : text : text) || text;
-    if (!link || !link.match(linkRegex)) throw '*[❗] Link erroneo o faltante, ingrese el enlace de un grupo de WhatsApp.*\n\n*—◉ Ejemplo:*\n*◉ #join https://chat.whatsapp.com/BeBCJKgbAguFIfWuzfo7DM*';
+    if (!link || !link.match(linkRegex)) throw '*[❗] Link erroneo o faltante, ingrese el enlace de un grupo de WhatsApp.*\n\n*—◉ Ejemplo:*\n◉ #join https://chat.whatsapp.com/BYmJ0Flfq5F022S2dN74GP';
     const [_, code] = link.match(linkRegex) || [];
     if ( isPrems || isMods || isOwner || m.fromMe) {
       const res = await conn.groupAcceptInvite(code);
