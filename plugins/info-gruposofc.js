@@ -1,9 +1,9 @@
 const handler = async (m, {conn, usedPrefix}) => {
   const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
   const document = doc[Math.floor(Math.random() * doc.length)];
-  const text = `*Hola Querido Usuario Este Es El Unico Grupo Oficial De Ventas Only Bot 👻*
+  const text = `*Hola Querido Usuario Este Es El Unico Grupo Oficial De Ventas Spider Bot 👻*
   
-  1 - https://chat.whatsapp.com/BeBCJKgbAguFIfWuzfo7DM`.trim();
+  1 - https://chat.whatsapp.com/BYmJ0Flfq5F022S2dN74GP`.trim();
   const buttonMessage= {
     'document': {url: `https://www.instagram.com/spider.ventas.bot/`},
     'mimetype': `application/${document}`,
