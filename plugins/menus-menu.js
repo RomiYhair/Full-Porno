@@ -40,6 +40,8 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  ►🕷️ _${usedPrefix}Yape *< Comprar Bot >*_
  ►🕷️ _${usedPrefix}Vendedores *< Comprar Bot >*_
  ►🕷️ _${usedPrefix}PrecioFull *< Comprar Bot Full >*_
+ ►🕷️ _${usedPrefix}Pago2 *< Comprar Bot Con Diamantes >*_
+ ►🕷️ _${usedPrefix}Pago3 *< Venta De Diamantes >*_
 ┣━━═════⊰⊱ ⬛ ⊰⊱═════━━┛
 
  *« MENUS ADICIONALES »*
@@ -81,7 +83,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  *« JUEGOS »*
 
 ┏━━═════⊰⊱ ⬛ ⊰⊱═════━━┓
- ►🕷️ _${usedPrefix}FelizCumple *<@tag>*_
+ ►🕷️ _${usedPrefix}Cumple *<@tag>*_
  ►🕷️ _${usedPrefix}nalga *<@tag>*_
  ►🕷️ _${usedPrefix}follar *<@tag>*_
  ►🕷️ _${usedPrefix}huevo *<@tag>*_
