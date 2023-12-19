@@ -1,10 +1,10 @@
 const handler = async (m, {conn}) => {
-  m.reply(global.diamantes1);
+  m.reply(global.Diamantes1);
 };
 handler.command = /^(Diamantes1)$/i;
 export default handler;
 
-global.diamante1 = `
+global.Diamante1 = `
 🕷 SPIDER VENTAS PERU 🕷
 
 VENTAS DE DIAMANTES 💎
