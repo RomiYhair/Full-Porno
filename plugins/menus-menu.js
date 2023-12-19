@@ -34,13 +34,13 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  ${readMore}
 ┣━━═════⊰⊱ ⬛ ⊰⊱═════━━┛
 
-*« COMPRAR BOT »*
+*« COMPRAR BOT Y VENTA »*
 
 ┏━━═════⊰⊱ ⬛ ⊰⊱═════━━┓
  ►🕷️ _${usedPrefix}Yape *< Comprar Bot >*_
  ►🕷️ _${usedPrefix}Vendedores *< Comprar Bot >*_
  ►🕷️ _${usedPrefix}PrecioFull *< Comprar Bot Full >*_
- ►🕷️ _${usedPrefix}Pago2 *< Comprar Bot Con Diamantes >*_
+ ►🕷️ _${usedPrefix}Pago2 *< Comprar Con Diamantes >*_
  ►🕷️ _${usedPrefix}Pago3 *< Venta De Diamantes >*_
 ┣━━═════⊰⊱ ⬛ ⊰⊱═════━━┛
 
