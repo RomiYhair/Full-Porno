@@ -1,10 +1,10 @@
 const handler = async (m, {conn}) => {
-  m.reply(global.diamantes);
+  m.reply(global.Pago2);
 };
-handler.command = /^(Diamantes)$/i;
+handler.command = /^(Pago2)$/i;
 export default handler;
 
-global.diamante = `
+global.Pago2 = `
 🕷 SPIDER BOT 🕷
 
 Metodo De Pago : 💎
@@ -12,5 +12,4 @@ Metodo De Pago : 💎
 200 DIAMANTES POR GRUPO 
 
 700 DIAMANTES BOT PROPIO
-
 `;
