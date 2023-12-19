@@ -5,11 +5,11 @@ handler.command = /^(Pago2)$/i;
 export default handler;
 
 global.Pago2 = `
-🕷 SPIDER BOT 🕷
+🕷️ 𝗦𝗣𝗜𝗗𝗘𝗥 𝗕𝗢𝗧 🕷️
 
-Metodo De Pago : 💎
+𝗠𝗲𝘁𝗼𝗱𝗼 𝗗𝗲 𝗣𝗮𝗴𝗼 : 💎
 
-200 DIAMANTES POR GRUPO 
+𝟮𝟬𝟬 𝗗𝗜𝗔𝗠𝗔𝗡𝗧𝗘𝗦 𝗣𝗢𝗥 𝗚𝗥𝗨𝗣𝗢 
 
-700 DIAMANTES BOT PROPIO
+𝟳𝟬𝟬 𝗗𝗜𝗔𝗠𝗔𝗡𝗧𝗘𝗦 𝗕𝗢𝗧 𝗣𝗥𝗢𝗣𝗜𝗢
 `;
