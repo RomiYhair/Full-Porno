@@ -62,9 +62,9 @@ const handler = async (m, { conn, command, text, usedPrefix }) => {
       if (percentages < 50) {
         description = `*Sabias Que ${text.toUpperCase()} Es Una Maldita Puta Jajaja ${percentages}% ${command}. ${emoji}*\n*-❥ Siempre seras una puta Jaja*`;
       } else if (percentages > 100) {
-        description = `*Los cálculos han arrojado que ${text.toUpperCase()} es ${percentages}% ${command}. ${emoji}*\n*-❥ Un auténtico ratón de lujo! 🏰*`;
+        description = `*Sabias Que ${text.toUpperCase()} Es Una Maldita Puta Jajaja ${percentages}% ${command}. ${emoji}*\n*-❥ Siempre seras una puta Jaja*`;
       } else {
-        description = `*Los cálculos han arrojado que ${text.toUpperCase()} es ${percentages}% ${command}. ${emoji}*\n*-❥ Come queso con responsabilidad! 🧀*`;
+        description = `*Sabias Que ${text.toUpperCase()} Es Una Maldita Puta Jajaja ${percentages}% ${command}. ${emoji}*\n*-❥ Siempre seras una puta Jaja*`;
       }
       break;
     case 'prostituto':
