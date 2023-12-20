@@ -1,13 +1,13 @@
 import translate from '@vitalets/google-translate-api';
 import fetch from 'node-fetch';
 const handler = async (m, {conn, command}) => {
-  if (command === 'consejo') {
+  if (command === 'Insultar1') {
     const consejo = consejos[Math.floor(Math.random() * consejos.length)];
-    const mensaje = `🕷\n\n ${consejo}\n\n`;
+    const mensaje = `🕷️ 𝗦𝗣𝗜𝗗𝗘𝗥 𝗕𝗢𝗧 🕷️\n\n ${consejo}\n\n`;
     await m.reply(mensaje);
   }
 handler.tags = ['frases'];
-handler.command = handler.help = ['consejo', 'fraseromantica', 'historiaromantica'];
+handler.command = handler.help = ['Insultar1', 'insultar1'];
 export default handler;
 
 async function cerpen(category) {
