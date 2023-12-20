@@ -3,7 +3,7 @@ import fetch from 'node-fetch';
 const handler = async (m, {conn, command}) => {
   if (command === 'insulto') {
     const frase_romantica = frasesromanticas[Math.floor(Math.random() * frasesromanticas.length)];
-    const mensaje = `╭─◆────◈⚘◈─────◆─╮\n\n⠀⠀💖 *insulto* 💖\n\n❥ ${frase_romantica}\n\n╰─◆────◈⚘◈─────◆─╯`;
+    const mensaje = `🕷️ 𝗦𝗣𝗜𝗗𝗘𝗥 𝗕𝗢𝗧 🕷️\n\n🕷️ ${frase_romantica}\n\n`;
     await m.reply(mensaje);
   }
 
