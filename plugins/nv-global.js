@@ -26,8 +26,8 @@ const vn = './media/dylan1.mp3';
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m })} 
 
-if (chat.audios && m.text.match(/(Bienvenido|Bienvenida|🤗|👋)/gi)) {
-let vn = './media/Bienvenido.mp3'
+if (/^Bienvenido|Bienvenida$/i.test(m.text) && chat.audios) {  
+const vn = './media/Bienvenido.mp3';
 this.sendPresenceUpdate('recording', m.chat)   
 conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply": { "title": wm, "body": `🐈`, "previewType": "PHOTO", "thumbnailUrl": null,"thumbnail": imagen1, "sourceUrl": md, "showAdAttribution": true}}, ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, { quoted: m })}
 
