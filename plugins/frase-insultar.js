@@ -1,9 +1,9 @@
 import translate from '@vitalets/google-translate-api';
 import fetch from 'node-fetch';
 const handler = async (m, {conn, command}) => {
-  if (command === 'consejo') {
-    const consejo = consejos[Math.floor(Math.random() * consejos.length)];
-    const mensaje = `╭─◆────◈⚘◈─────◆─╮\n\n⠀⠀🌟 *Consejo del día* \n\n❥ ${consejo}\n\n╰─◆────◈⚘◈─────◆─╯`;
+  if (command === 'insulto') {
+    const insulto = insulto[Math.floor(Math.random() * insulto.length)];
+    const mensaje = `🌟 *Consejo del día* \n\n❥ ${insulto}\n\n`;
     await m.reply(mensaje);
   }
 
@@ -31,7 +31,7 @@ ${storytime.text}`, m);
   }
 };
 handler.tags = ['frases'];
-handler.command = handler.help = ['Insulto', 'fraseromantica', 'historiaromantica'];
+handler.command = handler.help = ['insulto', 'fraseromantica', 'historiaromantica'];
 export default handler;
 
 async function cerpen(category) {
@@ -95,7 +95,7 @@ global.frasesromanticas = [
   'Amar es encontrar en ti todo lo que nunca supe que necesitaba.',
 ];
 
-global.consejos = [
+global.insulto = [
   'Acepta que los cambios son parte natural de la vida, y aprende a adaptarte a ellos.',
   'Nunca dejes de aprender; el conocimiento es una herramienta poderosa.',
   'Cuida de tu salud física y mental, son fundamentales para una vida plena.',
