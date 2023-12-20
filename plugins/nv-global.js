@@ -26,12 +26,6 @@ const vn = './media/dylan1.mp3';
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m })} 
 
-if (/^Bienvenido|Bienvenida$/i.test(m.text) && chat.audios) {  
-if (!db.data.chats[m.chat].audios && m.isGroup) throw 0    
-const vn = './media/Bienvenidox.mp3';
-this.sendPresenceUpdate('recording', m.chat)   
-conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply": { "title": wm, "body": `🐈`, "previewType": "PHOTO", "thumbnailUrl": null,"thumbnail": imagen1, "sourceUrl": md, "showAdAttribution": true}}, ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, { quoted: m })}
-
 if (chat.audios && m.text.match(/(Calla Fan de bts|bts|Amo a bts)/gi)) {
 let vn = './media/Calla Fan de BTS.mp3'
 let sticker = './media/btss.webp'
@@ -710,7 +704,14 @@ if (!db.data.chats[m.chat].audios) return;
 const vn = './media/mmhuevo.mp3';
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m })} 
-   
+
+  if (!chat.isBanned && m.text.match(/(Bienvenido|un nuevo|bienvenida)/gi)) {
+if (!db.data.chats[m.chat].audios) return;
+const vn = './media/Bienvenidox.mp3';
+this.sendPresenceUpdate('recording', m.chat)   
+this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m })} 
+
+  
   return !0;
 };
 export default handler;
