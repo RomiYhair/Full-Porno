@@ -14,7 +14,7 @@ const handler = async (m, {
     mentions: [menzione],
   });
 };
-handler.customPrefix = /iNSULTO/i;
+handler.customPrefix = /bardear/i;
 handler.command = new RegExp;
 export default handler;
 function pickRandom(list) {
