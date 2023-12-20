@@ -60,7 +60,7 @@ const handler = async (m, { conn, command, text, usedPrefix }) => {
     case 'rata':
       emoji = '🐁';
       if (percentages < 50) {
-        description = `*Sabias Que ${text.toUpperCase()} Es Una Maldita Puta Jajaja ${percentages}% ${command}. ${emoji}*\n*-❥ Siempre seras una puta Jaja*`;
+        description = `*Sabias Que ${text.toUpperCase()} Es Una Maldita Puta Jajaja *\n*-❥ Siempre seras una puta Jaja*`;
       } else if (percentages > 100) {
         description = `*Sabias Que ${text.toUpperCase()} Es Una Maldita Puta Jajaja ${percentages}% ${command}. ${emoji}*\n*-❥ Siempre seras una puta Jaja*`;
       } else {
