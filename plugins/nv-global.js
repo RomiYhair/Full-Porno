@@ -704,7 +704,7 @@ const vn = './media/nopapu.mp3';
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m })} 
 
-  if (!chat.isBanned && m.text.match(/(mamahuevo|mmhuevo)/gi)) {
+  if (!chat.isBanned && m.text.match(/(mamahuevo|mmhuevo|Mamahuevo)/gi)) {
 if (!db.data.chats[m.chat].audios) return;
 const vn = './media/mmhuevo.mp3';
 this.sendPresenceUpdate('recording', m.chat)   
