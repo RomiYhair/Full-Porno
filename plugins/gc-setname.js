@@ -1,6 +1,6 @@
 import Presence from '@whiskeysockets/baileys';
 const handler = async (m, {conn, args, text}) => {
-  if (!text) throw `𝗜𝗻𝗴𝗿𝗲𝘀𝗮 𝗘𝗹 𝗡𝘂𝗲𝘃𝗼 𝗡𝗼𝗺𝗯𝗿𝗲 𝗗𝗲𝗟 𝗚𝗿𝘂𝗽𝗼`;
+  if (!text) throw `𝗜𝗻𝗴𝗿𝗲𝘀𝗮 𝗘𝗹 𝗡𝘂𝗲𝘃𝗼 𝗡𝗼𝗺𝗯𝗿𝗲 𝗗𝗲𝗟 𝗚𝗿𝘂𝗽𝗼 🕷️\n\n𝐄𝐣𝐞𝐦𝐩𝐥𝐨 :\n.𝐬𝐞𝐭𝐧𝐚𝐦𝐞 𝐒𝐩𝐢𝐝𝐞𝐫 𝐁𝐨𝐭 🕷️`;
   try {
     const text = args.join` `;
     if (!args || !args[0]) {
@@ -8,7 +8,7 @@ const handler = async (m, {conn, args, text}) => {
       conn.groupUpdateSubject(m.chat, text);
     }
   } catch (e) {
-    throw '*[❗𝐈𝐍𝐅𝐎❗] 𝙻𝙾 𝚂𝙸𝙴𝙽𝚃𝙾 𝙷𝚄𝙱𝙾 𝚄𝙽 𝙴𝚁𝚁𝙾𝚁, 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴 𝙽𝙾 𝙿𝚄𝙴𝙳𝙴 𝚂𝙴𝚁 𝙼𝙰𝚂 𝙳𝙴 𝟸𝟻 𝙲𝙰𝚁𝙰𝙲𝚃𝙴𝚁𝙴𝚂*';
+  if (!text) throw `𝐋𝐨 𝐒𝐢𝐞𝐧𝐭𝐨 𝐍𝐨 𝐏𝐮𝐞𝐝𝐞 𝐒𝐞𝐫 𝐓𝐚𝐧 𝐋𝐚𝐫𝐠𝐨 𝐄𝐥 𝐍𝐨𝐦𝐛𝐫𝐞 🕷️`;
   }
 };
 handler.help = ['setname <text>'];
