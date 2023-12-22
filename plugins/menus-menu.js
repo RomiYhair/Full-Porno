@@ -80,60 +80,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  ►🕷️ _${usedPrefix}disable antiprivado_
 ┣━━═════⊰⊱ ⬛ ⊰⊱═════━━┛
 
- *« JUEGOS »*
-
-┏━━═════⊰⊱ ⬛ ⊰⊱═════━━┓
- ►🕷️ _${usedPrefix}Cumple *<@tag>*_
- ►🕷️ _${usedPrefix}nalga *<@tag>*_
- ►🕷️ _${usedPrefix}follar *<@tag>*_
- ►🕷️ _${usedPrefix}huevo *<@tag>*_
- ►🕷️ _${usedPrefix}abrazo *<@tag>*_
- ►🕷️ _${usedPrefix}cuando_
- ►🕷️ _${usedPrefix}ship5_
- ►🕷️ _${usedPrefix}minovio *<@tag>*_
- ►🕷️ _${usedPrefix}minovia *<@tag>*_
- ►🕷️ _${usedPrefix}formartrio_
- ►🕷️ _${usedPrefix}zodiac *<Txt>*_
- ►🕷️ _${usedPrefix}odio *<@tag>*_
- ►🕷️ _${usedPrefix}insultar *<@tag>*_
- ►🕷️ _${usedPrefix}sorteo *<Txt>*_
- ►🕷️ _${usedPrefix}violar *<@tag>*_
- ►🕷️ _${usedPrefix}sega_
- ►🕷️ _${usedPrefix}ship2_
- ►🕷️ _${usedPrefix}mates *<noob / easy / medium / hard / extreme /impossible /impossible2>*_
- ►🕷️ _${usedPrefix}fake *<txt1> <@tag> <txt2>*_
- ►🕷️ _${usedPrefix}ppt *<papel / tijera /piedra>*_
- ►🕷️ _${usedPrefix}prostituto *<nombre / @tag>*_
- ►🕷️ _${usedPrefix}prostituta *<nombre / @tag>*_
- ►🕷️ _${usedPrefix}gay2 *<nombre / @tag>*_
- ►🕷️ _${usedPrefix}lesbiana *<nombre / @tag>*_
- ►🕷️ _${usedPrefix}pajero *<nombre / @tag>*_
- ►🕷️ _${usedPrefix}pajera *<nombre / @tag>*_
- ►🕷️ _${usedPrefix}puto *<nombre / @tag>*_
- ►🕷️ _${usedPrefix}puta *<nombre / @tag>*_
- ►🕷️ _${usedPrefix}manco *<nombre / @tag>*_
- ►🕷️ _${usedPrefix}manca *<nombre / @tag>*_
- ►🕷️ _${usedPrefix}rata *<nombre / @tag>*_
- ►🕷️ _${usedPrefix}love *<nombre / @tag>*_
- ►🕷️ _${usedPrefix}doxear *<nombre / @tag>*_
- ►🕷️ _${usedPrefix}pregunta *<txt>*_
- ►🕷️ _${usedPrefix}suitpvp *<@tag>*_
- ►🕷️ _${usedPrefix}slot *<apuesta>*_
- ►🕷️ _${usedPrefix}ttt *<nombre sala>*_
- ►🕷️ _${usedPrefix}delttt_
- ►🕷️ _${usedPrefix}acertijo_
- ►🕷️ _${usedPrefix}simi *<txt>*_
- ►🕷️ _${usedPrefix}top *<txt>*_
- ►🕷️ _${usedPrefix}topgays_
- ►🕷️ _${usedPrefix}topotakus_
- ►🕷️ _${usedPrefix}formarpareja_
- ►🕷️ _${usedPrefix}verdad_
- ►🕷️ _${usedPrefix}reto_
- ►🕷️ _${usedPrefix}cancion_
- ►🕷️ _${usedPrefix}pista_
- ►🕷️ _${usedPrefix}akinator_
- ►🕷️ _${usedPrefix}wordfind_
-┣━━═════⊰⊱ ⬛ ⊰⊱═════━━┛
 
  *« Enable / Disable »*
 
@@ -166,33 +112,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  ►🕷️ _${usedPrefix}disable *antidelete*_
 ┣━━═════⊰⊱ ⬛ ⊰⊱═════━━┛
 
- *« DESCARGAS »*
-
-┏━━═════⊰⊱ ⬛ ⊰⊱═════━━┓
- ►🕷️ _${usedPrefix}instagram *<url>*_
- ►🕷️ _${usedPrefix}mediafire *<url>*_
- ►🕷️ _${usedPrefix}gitclone *<url>*_
- ►🕷️ _${usedPrefix}gdrive *<url>*_
- ►🕷️ _${usedPrefix}tiktok *<url>*_
- ►🕷️ _${usedPrefix}tiktokimg *<url>*_
- ►🕷️ _${usedPrefix}xnxxdl *<url>*_
- ►🕷️ _${usedPrefix}xvideosdl *<url>*_
- ►🕷️ _${usedPrefix}twitter *<url>*_
- ►🕷️ _${usedPrefix}fb *<url>*_
- ►🕷️ _${usedPrefix}ytshort *<url>*_
- ►🕷️ _${usedPrefix}dapk2 *<url>*_
- ►🕷️ _${usedPrefix}stickerpack *<url>*_
- ►🕷️ _${usedPrefix}play *<txt>*_
- ►🕷️ _${usedPrefix}ringtone *<txt>*_
- ►🕷️ _${usedPrefix}soundcloud *<txt>*_
- ►🕷️ _${usedPrefix}img *<txt>*_
- ►🕷️ _${usedPrefix}pinterest *<txt>*_
- ►🕷️ _${usedPrefix}wallpaper *<txt>*_
- ►🕷️ _${usedPrefix}pptiktok *<user>*_
- ►🕷️ _${usedPrefix}igstalk *<user>*_
- ►🕷️ _${usedPrefix}igstory *<user>*_
- ►🕷️ _${usedPrefix}tiktokstalk *<user>*_
-┣━━═════⊰⊱ ⬛ ⊰⊱═════━━┛
 
  *« BUSCADORES »*
 
@@ -211,42 +130,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  ►🕷️ _${usedPrefix}playstore *<txt>*_
 ┣━━═════⊰⊱ ⬛ ⊰⊱═════━━┛
 
- *« GRUPOS »* 
-
-┏━━═════⊰⊱ ⬛ ⊰⊱═════━━┓
- ►🕷️ _${usedPrefix}Comunidad *<Invocar>*_
- ►🕷️ _${usedPrefix}Sorteos *<Invocar>*_
- ►🕷️ _${usedPrefix}Dinamicas *<Invocar>*_
- ►🕷️ _${usedPrefix}Vs *<Invocar>*_
- ►🕷️ _${usedPrefix}add *num>*_
- ►🕷️ _${usedPrefix}kick *<@tag>*_
- ►🕷️ _${usedPrefix}kick2 *<@tag>*_
- ►🕷️ _${usedPrefix}listanum *<txt>*_
- ►🕷️ _${usedPrefix}kicknum *<txt>*_
- ►🕷️ _${usedPrefix}grupo *<abrir / cerrar>*_
- ►🕷️ _${usedPrefix}grouptime *<opcion> <tiempo>*_
- ►🕷️ _${usedPrefix}promote *<@tag>*_
- ►🕷️ _${usedPrefix}demote *<@tag>*_
- ►🕷️ _${usedPrefix}infogroup_
- ►🕷️ _${usedPrefix}resetlink_
- ►🕷️ _${usedPrefix}link_
- ►🕷️ _${usedPrefix}setname *<txt>*_
- ►🕷️ _${usedPrefix}setdesc *<txt>*_
- ►🕷️ _${usedPrefix}todos_
- ►🕷️ _${usedPrefix}setwelcome *<txt>*_
- ►🕷️ _${usedPrefix}setbye *<txt>*_
- ►🕷️ _${usedPrefix}hidetag *<txt>*_
- ►🕷️ _${usedPrefix}hidetag *<audio>*_
- ►🕷️ _${usedPrefix}hidetag *<video>*_
- ►🕷️ _${usedPrefix}hidetag *<img>*_
- ►🕷️ _${usedPrefix}warn *<@tag>*_
- ►🕷️ _${usedPrefix}unwarn *<@tag>*_
- ►🕷️ _${usedPrefix}listwarn_
- ►🕷️ _${usedPrefix}fantasmas_
- ►🕷️ _${usedPrefix}setpp *<img>*_
- ►🕷️ _admins *<txt>*_ (sin prefijo)
-${readMore}
-┣━━═════⊰⊱ ⬛ ⊰⊱═════━━┛
 
  *« CONVERTIDORES »* 
 
@@ -398,38 +281,6 @@ ${readMore}
  ►🕷️ _${usedPrefix}robar *<cant> <@tag>*_
  ►🕷️ _${usedPrefix}transfer *<tipo> <cant> <@tag>*_
  ►🕷️ _${usedPrefix}unreg *<sn>*_
-┣━━═════⊰⊱ ⬛ ⊰⊱═════━━┛
-
- *« STICKERS »* 
-
-┏━━═════⊰⊱ ⬛ ⊰⊱═════━━┓
- ►🕷️ _${usedPrefix}sticker *<responder a img o video>*_
- ►🕷️ _${usedPrefix}sticker *<url>*_
- ►🕷️ _${usedPrefix}sticker2 *<responder a img o video>*_
- ►🕷️ _${usedPrefix}sticker2 *<url>*_
- ►🕷️ _${usedPrefix}s *<responder a img o video>*_
- ►🕷️ _${usedPrefix}s *<url>*_
- ►🕷️ _${usedPrefix}emojimix *<emoji 1>&<emoji 2>*_
- ►🕷️ _${usedPrefix}scircle *<img>*_
- ►🕷️ _${usedPrefix}sremovebg *<img>*_
- ►🕷️ _${usedPrefix}semoji *<tipo> <emoji>*_
- ►🕷️ _${usedPrefix}qc *<txt>*_
- ►🕷️ _${usedPrefix}attp *<txt>*_
- ►🕷️ _${usedPrefix}attp2 *<txt>*_
- ►🕷️ _${usedPrefix}attp3 *<txt>*_
- ►🕷️ _${usedPrefix}ttp *<txt>*_
- ►🕷️ _${usedPrefix}ttp2 *<txt>*_
- ►🕷️ _${usedPrefix}ttp3 *<txt>*_
- ►🕷️ _${usedPrefix}ttp4 *<txt>*_
- ►🕷️ _${usedPrefix}ttp5 *<txt>*_
- ►🕷️ _${usedPrefix}pat *<@tag>*_
- ►🕷️ _${usedPrefix}slap *<@tag>*_
- ►🕷️ _${usedPrefix}kiss *<@tag>*_
- ►🕷️ _${usedPrefix}dado_
- ►🕷️ _${usedPrefix}wm *<packname> <autor>*_
- ►🕷️ _${usedPrefix}stickermarker *<efecto> <img>*_
- ►🕷️ _${usedPrefix}stickerfilter *<efecto> <img>*_
-${readMore}
 ┣━━═════⊰⊱ ⬛ ⊰⊱═════━━┛
 
  *« PROPIETARIO »* 
