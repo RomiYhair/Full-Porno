@@ -52,7 +52,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  ►🕷️ _${usedPrefix}Juegos_
  ►🕷️ _${usedPrefix}Descargas_
  ►🕷️ _${usedPrefix}Stickers_
- ►🕷️ _${usedPrefix}Grupos_
+ ►🕷️ _${usedPrefix}Grupos1_
 ┣━━═════⊰⊱ ⬛ ⊰⊱═════━━┛
 
  *« COMANDOS BOT »*
