@@ -41,7 +41,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  ►🕷️ _${usedPrefix}link_
  ►🕷️ _${usedPrefix}setname *<txt>*_
  ►🕷️ _${usedPrefix}setdesc *<txt>*_
- ►🕷️ _${usedPrefix}todos_
+ ►🕷️ _${usedPrefix}todos *<Invocar>*_
  ►🕷️ _${usedPrefix}setwelcome *<txt>*_
  ►🕷️ _${usedPrefix}setbye *<txt>*_
  ►🕷️ _${usedPrefix}hidetag *<txt>*_
